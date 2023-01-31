@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import io.github.yehiareda.shapecontainer.R;
-import io.github.yehiareda.shapecontainer.shapecontainer;
+import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
-public class ArcView extends shapecontainer {
+public class ArcView extends ShapeContainer {
 
     public static final int POSITION_BOTTOM = 1;
     public static final int POSITION_TOP = 2;

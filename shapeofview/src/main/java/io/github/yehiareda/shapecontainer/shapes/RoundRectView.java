@@ -16,10 +16,10 @@ import androidx.annotation.Nullable;
 import java.util.Locale;
 
 import io.github.yehiareda.shapecontainer.R;
-import io.github.yehiareda.shapecontainer.shapecontainer;
+import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
-public class RoundRectView extends shapecontainer {
+public class RoundRectView extends ShapeContainer {
 
     private final RectF rectF = new RectF();
     //region border

@@ -1,4 +1,5 @@
 # ShapeOfView
+
 Give a custom shape to any android view Useful for Material Design 2
 
 [![screen](https://raw.githubusercontent.com/florent37/ShapeOfView/master/medias/shrine.gif)](https://www.github.com/florent37/ShapeOfView)
@@ -247,8 +248,8 @@ Wrap your view with a `ShapeOfView`
 Then generate a path in your code :
 
 ```java
-ShapeOfView shapeOfView=findViewById(R.id.myShape)
-        shapeOfView.setClipPathCreator(new ClipPathManager.ClipPathCreator(){
+ShapeContainer shapeContainer=findViewById(R.id.myShape)
+        ShapeContainer.setClipPathCreator(new ClipPathManager.ClipPathCreator(){
 @Override
 public Path createClipPath(int width,int height){
 final Path path=new Path();
@@ -268,27 +269,3 @@ In some case you have to specify `requiresBitmap = true` to enable ShapeOfView t
 inside a bitmap before clipping your view. It will be less efficient but can make your custom shape
 work.
 
-# Contribute
-
-Feel free to fork this project, and add customs shapes
-
-Then make a `merge-request` after updated the README with a sample of your shape, including a
-preview
-
-
-License
---------
-
-    Copyright 2017 Florent37, Inc.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.

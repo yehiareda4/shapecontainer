@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import io.github.yehiareda.shapecontainer.R;
-import io.github.yehiareda.shapecontainer.shapecontainer;
+import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
-public class CutCornerView extends shapecontainer {
+public class CutCornerView extends ShapeContainer {
 
     private final RectF rectF = new RectF();
 

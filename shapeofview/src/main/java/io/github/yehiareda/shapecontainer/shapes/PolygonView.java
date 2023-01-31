@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import io.github.yehiareda.shapecontainer.R;
-import io.github.yehiareda.shapecontainer.shapecontainer;
+import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
-public class PolygonView extends shapecontainer {
+public class PolygonView extends ShapeContainer {
     private int numberOfSides = 4;
 
     public PolygonView(@NonNull Context context) {

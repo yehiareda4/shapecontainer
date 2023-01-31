@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import io.github.yehiareda.shapecontainer.R;
-import io.github.yehiareda.shapecontainer.shapecontainer;
+import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
 
-public class TriangleView extends shapecontainer {
+public class TriangleView extends ShapeContainer {
     private float percentBottom = 0.5f;
     private float percentLeft = 0f;
     private float percentRight = 0f;

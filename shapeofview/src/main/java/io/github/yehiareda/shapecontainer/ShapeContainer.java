@@ -25,7 +25,7 @@ import androidx.core.view.ViewCompat;
 import io.github.yehiareda.shapecontainer.manager.ClipManager;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
-public class shapecontainer extends FrameLayout {
+public class ShapeContainer extends FrameLayout {
 
     private final Paint clipPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Path clipPath = new Path();
@@ -40,17 +40,17 @@ public class shapecontainer extends FrameLayout {
 
     final Path rectView = new Path();
 
-    public shapecontainer(@NonNull Context context) {
+    public ShapeContainer(@NonNull Context context) {
         super(context);
         init(context, null);
     }
 
-    public shapecontainer(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public ShapeContainer(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init(context, attrs);
     }
 
-    public shapecontainer(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ShapeContainer(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context, attrs);
     }

@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import io.github.yehiareda.shapecontainer.R;
-import io.github.yehiareda.shapecontainer.shapecontainer;
+import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
 
-public class DottedEdgesCutCornerView extends shapecontainer {
+public class DottedEdgesCutCornerView extends ShapeContainer {
 
     public static final int POSITION_NONE = 0;
     public static final int POSITION_BOTTOM = 1;

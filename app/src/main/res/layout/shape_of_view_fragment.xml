@@ -47,7 +47,7 @@
 
         </io.github.yehiareda.shapecontainer.shapes.BubbleView>
 
-        <io.github.yehiareda.shapecontainer.shapecontainer
+        <io.github.yehiareda.shapecontainer.ShapeContainer
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginBottom="8dp"
@@ -76,7 +76,7 @@
                 android:textSize="11sp"
                 android:textStyle="bold" />
 
-        </io.github.yehiareda.shapecontainer.shapecontainer>
+        </io.github.yehiareda.shapecontainer.ShapeContainer>
 
         <io.github.yehiareda.shapecontainer.shapes.CircleView
             android:id="@+id/circle"
