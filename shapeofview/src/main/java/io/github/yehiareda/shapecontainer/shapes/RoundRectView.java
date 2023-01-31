@@ -13,8 +13,6 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import java.util.Locale;
-
 import io.github.yehiareda.shapecontainer.R;
 import io.github.yehiareda.shapecontainer.ShapeContainer;
 import io.github.yehiareda.shapecontainer.manager.ClipPathManager;
@@ -100,7 +98,7 @@ public class RoundRectView extends ShapeContainer {
     }
 
     private Path generatePath(RectF rect, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius) {
-        if (Locale.getDefault().getLanguage().equals("ar")) {
+        if (getLayoutDirection() == LAYOUT_DIRECTION_RTL) {
             return generatePath(false, rect, topRightRadius, topLeftRadius, bottomLeftRadius, bottomRightRadius);
         } else {
             return generatePath(false, rect, topLeftRadius, topRightRadius, bottomRightRadius, bottomLeftRadius);
