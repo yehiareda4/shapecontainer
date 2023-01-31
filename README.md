@@ -10,7 +10,7 @@ Give a custom shape to any android view Useful for Material Design 2
 //using maven central
 
 dependencies{
-        implementation'io.github.yehiareda:shapecontainer:1.0.0'
+        implementation'com.github.yehiareda4:shapecontainer:1.0.0'
         }
 ```
 
